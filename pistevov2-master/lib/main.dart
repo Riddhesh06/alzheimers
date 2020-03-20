@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pistevov2/Alassist.dart';
 //import 'package:pistevov2/backend.dart';
 import 'package:pistevov2/motivquotes.dart';
 import 'package:pistevov2/profile_page.dart';
@@ -154,6 +155,24 @@ class Home extends StatelessWidget{
                 ),
                 onTap: (){
                   Navigator.push(context, new MaterialPageRoute(builder: (context) =>QuoteList()));
+
+                },
+              ),
+            ),
+            Card(                                                                              //card - motiv quotes
+              child: InkWell(
+                splashColor: Colors.lightBlueAccent,
+                child: Center(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: <Widget>[
+                      Icon(Icons.chat,size: 70.0,color: Colors.deepPurple,),
+                      Text("Alassist-Chatbot", style: new TextStyle(fontSize: 17.0),)
+                    ],
+                  ),
+                ),
+                onTap: (){
+                  Navigator.push(context, new MaterialPageRoute(builder: (context) =>Alassist()));
 
                 },
               ),
