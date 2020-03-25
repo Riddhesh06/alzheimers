@@ -172,7 +172,7 @@ class Home extends StatelessWidget{
                   ),
                 ),
                 onTap: (){
-                  Navigator.push(context, new MaterialPageRoute(builder: (context) =>Alassist()));
+                  Navigator.push(context, new MaterialPageRoute(builder: (context) =>AlassyDialogFlow()));
 
                 },
               ),
