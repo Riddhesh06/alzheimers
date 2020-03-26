@@ -11,7 +11,7 @@ class FactsMessage extends StatelessWidget {
     return <Widget>[
       Container(
         margin: const EdgeInsets.only(right: 16.0),
-        child: CircleAvatar(child: Text('Alassy')),
+        child: CircleAvatar(child: Text('Al')),
       ),
       Expanded(
         child: Column(
